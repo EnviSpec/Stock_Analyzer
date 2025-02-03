@@ -1,6 +1,6 @@
 from yahooquery import Ticker
 
-from pandas_datareader import data as web
+# from pandas_datareader import data as web
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
