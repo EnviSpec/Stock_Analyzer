@@ -10,3 +10,4 @@ pandas
 yfinance
 numpy
 streamlit
+distutils
