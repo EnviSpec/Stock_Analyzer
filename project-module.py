@@ -42,7 +42,7 @@ def stock_information(symbol):
   df.set_index('Date', inplace=True)
   df.index.freq = 'D'  # Set the frequency to daily
 
-  df = df.drop(columns=['Open','Adj Close','High', 'Volume','Low'])
+  df = df.drop(columns=['Open','High', 'Volume','Low'])
   return df
 
 
