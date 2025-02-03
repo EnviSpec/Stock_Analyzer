@@ -35,7 +35,7 @@ def stock_information(symbol):
 
   df = yf.download(symbol)
   df = df.asfreq('d')
-  df = df.fillna(method = 'ffill')
+  df = df.ffill()
 
   df['Date'] = df.index
   df['Date'] = pd.to_datetime(df['Date'])
