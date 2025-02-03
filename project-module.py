@@ -275,7 +275,7 @@ def company_information():
     return nifty_info
 
 def company_information_200():
-    nifty_200 = pd.read_csv('Data/ind_nifty200list.csv')
+    nifty_200 = pd.read_csv('Data/ind_nifty50list.csv')
     nifty_200['Symbol'] = [x + '.NS' for x in nifty_200['Symbol']]
     nifty_200 = nifty_200.rename(columns={'Industry':'Sector'})
     return nifty_200
