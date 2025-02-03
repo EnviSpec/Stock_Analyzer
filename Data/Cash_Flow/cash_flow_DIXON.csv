@@ -1,0 +1,6 @@
+symbol,asOfDate,periodType,currencyCode,BeginningCashPosition,CapitalExpenditure,CapitalExpenditureReported,CashDividendsPaid,ChangeInCashSupplementalAsReported,ChangeInWorkingCapital,ChangesInCash,CommonStockIssuance,Depreciation,DepreciationAndAmortization,EndCashPosition,FinancingCashFlow,FreeCashFlow,InterestPaidCFF,InvestingCashFlow,IssuanceOfCapitalStock,NetCommonStockIssuance,NetIncome,NetIncomeFromContinuingOperations,NetInvestmentPurchaseAndSale,NetIssuancePaymentsOfDebt,NetLongTermDebtIssuance,NetOtherInvestingChanges,NetShortTermDebtIssuance,OperatingCashFlow,OtherNonCashItems,TaxesRefundPaid
+DIXON.NS,2023-03-31,3M,INR,1580000000.0,-1792000000.0,-1792000000.0,1300000.0,585800000.0,1973900000.0,585800000.0,-4300000.0,281500000.0,326300000.0,2170400000.0,-686200000.0,1505500000.0,-377300000.0,-2025500000.0,-4300000.0,-4300000.0,806600000.0,1101600000.0,-350600000.0,-495900000.0,-525500000.0,-72600000.0,29600000.0,3297500000.0,7400000.0,-249900000.0
+DIXON.NS,2023-06-30,3M,INR,,,,,,,,,,,,,,,,,,688200000.0,,,,,,,,,
+DIXON.NS,2023-09-30,3M,INR,,,,,,,,,,,,,,,,,,1073200000.0,,,,,,,,,
+DIXON.NS,2023-12-31,3M,INR,,,,,,,,,,,,,,,,,,964400000.0,,,,,,,,,
+DIXON.NS,2023-12-31,TTM,INR,,,,,,,,,,,,,,,,,,3532400000.0,,,,,,,,,
