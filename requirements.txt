@@ -3,7 +3,7 @@ pandas-datareader
 matplotlib
 mplfinance
 seaborn
-plotly
+plotly==5.9.0
 statsmodels
 requests
 pandas
