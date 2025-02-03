@@ -44,7 +44,8 @@ if selected_tab == "Trend Prediction":
     if len(stock_ticker) > 0 :
         stock = analyze.stock_information(stock_ticker)
 
-        fig = analyze.stock_trend_prediction(stock)
+        fig,train_df,test_df,prediction,forecast = analyze.stock_trend_prediction(stock)
+        st.dataframe(forecast)
         st.plotly_chart(fig)
 
 # Input Excel and Graphs tab
