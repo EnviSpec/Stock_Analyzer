@@ -94,7 +94,7 @@ def stock_trend_prediction(df):
    )
 
   # Show the plotly figure
-  return fig
+  return fig, train_df,test_df,prediction,forecast
 
 
 """ 02 : Companies Evaluation using Comparable Analysis """
