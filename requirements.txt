@@ -1,0 +1,16 @@
+yahooquery
+pandas_datareader
+matplotlib
+datetime
+mplfinance
+seaborn
+plotly
+statsmodels
+requests
+pandas
+yfinance
+json
+numpy
+plotly
+importlib
+streamlit
