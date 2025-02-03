@@ -120,7 +120,7 @@ elif selected_tab == "Fundamental Value of a Stock":
         tickers = analyze.company_industry(symbol,analyze.company_information_200()) # Testing of Nifty 200
 
         #finance_company = ['HDFCBANK.NS','AXISBANK.NS','ICICIBANK.NS','INDUSINDBK.NS','KOTAKBANK.NS','SBIN.NS','HDFCLIFE.NS', 'BAJFINANCE.NS', 'BAJAJFINSV.NS', 'SBILIFE.NS']
-        nifty_200 = analyze.company_information_200()
+        nifty_50 = analyze.company_information()
         finance_company = nifty_200[nifty_200['Sector'] == 'Financial Services']['Symbol'].to_list()
 
         if len(tickers)>=2:
