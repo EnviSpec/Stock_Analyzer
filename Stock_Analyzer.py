@@ -43,6 +43,7 @@ if selected_tab == "Trend Prediction":
 
     if len(stock_ticker) > 0 :
         stock = analyze.stock_information(stock_ticker)
+        st.dataframe(stock)
         fig = analyze.stock_trend_prediction(stock)
         st.plotly_chart(fig)
 
